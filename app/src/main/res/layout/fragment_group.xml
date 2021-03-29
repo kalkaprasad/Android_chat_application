@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="horizontal"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@android:color/white">
+
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:orientation="horizontal"
+            android:layout_margin="5dp"
+            android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:weightSum="2">
+                    <xute.storyview.StoryView
+                        android:id="@+id/storyViewkp"
+                        android:layout_width="56dp"
+                        android:layout_height="60dp"
+                        android:layout_centerInParent="true"
+                        android:layout_margin="1dp"
+                        android:layout_weight="1"
+                        app:spaceBetweenImageAndIndicator="1dp"
+                        app:storyImageRadius="10dp"
+                        app:storyItemIndicatorWidth="2dp"
+                        app:visitedIndicatorColor="#6200EA" />
+<!--            <de.hdodenhof.circleimageview.CircleImageView-->
+<!--                android:layout_width="56dp"-->
+<!--                android:layout_weight="1"-->
+<!--                android:layout_height="60dp"-->
+<!--                app:civ_border_color="#2962FF"-->
+<!--                app:civ_border_width="2dp"-->
+<!--                android:layout_margin="2dp"-->
+<!--                app:civ_border_overlay="true"-->
+<!--                android:src="@drawable/kalka">-->
+<!--            </de.hdodenhof.circleimageview.CircleImageView>-->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Add Story"
+                android:textStyle="bold"
+                android:textSize="13dp"
+                android:textColor="#D50000">
+
+            </TextView>
+        </LinearLayout>
+
+        </LinearLayout>
+
+        <!--        <xute.storyview.StoryView-->
+<!--            android:id="@+id/storyViewkp"-->
+<!--            android:layout_width="80dp"-->
+<!--            android:layout_height="80dp"-->
+<!--            android:layout_centerInParent="true"-->
+<!--            android:layout_margin="1dp"-->
+<!--            app:spaceBetweenImageAndIndicator="1dp"-->
+<!--            app:storyImageRadius="10dp"-->
+<!--            app:storyItemIndicatorWidth="2dp"-->
+<!--            app:visitedIndicatorColor="#6200EA" />-->
+
+
+    </HorizontalScrollView>
+
+</RelativeLayout>

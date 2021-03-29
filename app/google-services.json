@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "452214208904",
+    "firebase_url": "https://deepak-97cbb.firebaseio.com",
+    "project_id": "deepak-97cbb",
+    "storage_bucket": "deepak-97cbb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:452214208904:android:894f962f12d6755edc223d",
+        "android_client_info": {
+          "package_name": "com.lms.deepakchatapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "452214208904-bgaagg2sk1ai7t22vk7tdle5h33gr837.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.lms.deepakchatapp",
+            "certificate_hash": "d318b56a86956b63ddd4daa24bfe6f3192e460fe"
+          }
+        },
+        {
+          "client_id": "452214208904-rsbrs8blh6a7ncdtsdmc8bi2rvehlh0v.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBgSfxLLyLpsjNwOYegnci9OROlofLkoZg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "452214208904-rsbrs8blh6a7ncdtsdmc8bi2rvehlh0v.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
